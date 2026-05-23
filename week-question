@@ -1,0 +1,46 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    enum level {
+        sunday,
+        monday,
+        tuesday,
+        wednesday,
+        thursday,
+        friday,
+        saturday
+    };
+
+    level today = wednesday;
+
+    switch (today) {
+        case sunday:
+            cout << "Sunday - day of the week" << endl;
+            break;
+        case monday:
+            cout << "Monday - day of the week" << endl;
+            break;
+        case tuesday:
+            cout << "Tuesday - day of the week" << endl;
+            break;
+        case wednesday:
+            cout << "Wednesday - day of the week" << endl;
+            break;
+        case thursday:
+            cout << "Thursday - day of the week" << endl;
+            break;
+        case friday:
+            cout << "Friday - day of the week" << endl;
+            break;
+        case saturday:
+            cout << "Saturday - day of the week" << endl;
+            break;
+        default:
+            break;
+    }
+
+    return 0;
+}
