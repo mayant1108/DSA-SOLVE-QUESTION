@@ -1,0 +1,45 @@
+
+#include <iostream>
+using namespace std;
+    
+int main() {
+    int marks ;
+    cout << "enter  your marks (0-100)";
+    cin >> marks ;
+
+    switch (marks /10)
+    {
+    case 1:
+          cout  << 90 << endl;
+       
+        break;
+
+     case 2:
+          cout << 80 << endl;
+        
+        break;
+    case 3:
+          cout << 70 << endl;
+        
+        break;
+    case 4:
+          cout << 60 << endl;
+        
+        break; 
+    case 5:
+          cout << 50 << endl;
+        
+        break; 
+    
+     case 6:
+          cout << 40 << endl;
+        
+        break;    
+    
+    default:
+            cout << "fail" << endl;
+        break;
+    }
+    
+    return 0;
+}
